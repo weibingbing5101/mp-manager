@@ -1,5 +1,5 @@
 var yfUrl = 'http://localhost:3000';
-var prodUrl = 'http://localhost:3000';
+var prodUrl = 'http://121.4.84.219:3000';
 
 
 var domain2ApiUrl = {
