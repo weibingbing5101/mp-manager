@@ -27,6 +27,13 @@ const api = {
     return http.fetchPostAppJson(baseurl + '/floors/list', params);
   },
 
+  genMP: function(params = {}) {
+    return http.fetchPostAppJson(baseurl + '/ci/genmp', params);
+  },
+
+  previewmp: function(params = {}) {
+    return http.fetchPostAppJson(baseurl + '/ci/previewmp', params);
+  },
 
 };
 
